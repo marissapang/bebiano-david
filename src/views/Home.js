@@ -22,7 +22,7 @@ export default function Home(props) {
     <div className="Home">
         <div className="Text-Area">
           <h1>BEBIANO DAV&Iacute;D</h1>
-          <button>ENTER</button>
+          <button onClick={()=>navigate('/sculpture')}>ENTER</button>
         </div>
     </div>
   );
