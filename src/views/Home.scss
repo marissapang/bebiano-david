@@ -1,0 +1,17 @@
+.Home h1 {
+	font-size: 9vw;
+}
+
+.Home button {
+	background: none;
+	border: 2px solid black;
+	border-radius: 1000px;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	padding-top: 0.75vw;
+	padding-bottom: 0.75vw;
+}
+
+.Home button:hover {
+	cursor: pointer;
+}
