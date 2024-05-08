@@ -6,9 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import './Home.scss';
 
 // Image imports
-import banner from '../images/banner.png';
-import bannerMobile from '../images/banner-mobile.png';
-
+import banner from '../images/banner.jpg';
 
 
 export default function Home(props) {
@@ -20,9 +18,12 @@ export default function Home(props) {
 
   return (
     <div className="Home">
+        <img src={banner}/>
         <div className="Text-Area">
-          <h1>BEBIANO DAV&Iacute;D</h1>
-          <button onClick={()=>navigate('/sculpture')}>ENTER</button>
+          <div className="TitleAndButton">
+            <h1>BEBIANO DAV&Iacute;D</h1>
+            <button onClick={()=>navigate('/sculpture')}>ENTER</button>
+          </div>
         </div>
     </div>
   );
