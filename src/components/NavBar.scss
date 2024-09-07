@@ -1,0 +1,18 @@
+.NavBar {
+  padding: 4em;
+  color: #4B3C28;
+}
+
+.NavItem {
+  margin: 1em;
+  font-weight:600;
+}
+
+.NavItem:hover {
+  cursor: pointer;
+  color: #2E2419;
+}
+
+.NavItem.Active {
+  color:#100C08;
+}
